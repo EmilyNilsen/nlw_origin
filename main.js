@@ -14,7 +14,7 @@ const links = document.querySelectorAll('nav ul li a')
 for (const link of links) {
   link.addEventListener('click', function () {
     nav.classList.remove('show')
-   })
+  })
 }
 /* mudar o header na página quando der scroll*/
 const header = document.querySelector('#header')
